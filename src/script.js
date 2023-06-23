@@ -36,13 +36,13 @@ renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
  * Galaxy
  */
 const parameters = {}
-parameters.count = 200000
+parameters.count = 400000
 parameters.size = 0.005
-parameters.radius = 5
-parameters.branches = 3
+parameters.radius = 10
+parameters.branches = 6
 parameters.spin = 1
-parameters.randomness = 0.5
-parameters.randomnessPower = 3
+parameters.randomness = 0.75
+parameters.randomnessPower = 3.9
 parameters.insideColor = '#ff6030'
 parameters.outsideColor = '#1b3984'
 
